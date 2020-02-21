@@ -9,6 +9,9 @@ import java.util.concurrent.Semaphore;
  * @author ls
  * @date 20-2-20
  */
+/**
+ * 应用了计数信号量
+ * */
 public class Main {
     public static void main(String[] args) {
         BoundResource boundResource=new BoundResource(4);

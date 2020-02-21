@@ -11,6 +11,10 @@ import SingleThreadExecution.correct.UserThread;
  * @author ls
  * @date 20-2-20
  */
+/**
+* 一次只能通过一个
+ *
+* */
 public class Test {
     public static void main(String[] args) {
         System.out.println("Testing ");
