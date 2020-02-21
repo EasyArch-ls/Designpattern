@@ -15,6 +15,6 @@ public class MyString {
         String t=s.replace("a","x");
         System.out.println(s);
         System.out.println(t);
-        System.out.println(s==t);
+        System.out.println(s.equals(t));
     }
 }
